@@ -57,6 +57,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\cyfra10.jpg" />
+	  <None Remove="Resources\Images\cyfra4.jpg" />
+	  <None Remove="Resources\Images\cyfra6.jpg" />
 	  <None Remove="Resources\Images\kostkadogry123.jpg" />
 	</ItemGroup>
 

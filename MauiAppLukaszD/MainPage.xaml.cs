@@ -37,6 +37,7 @@
 
             SemanticScreenReader.Announce(CounterBtn2.Text);
         }
+
     }
 
 }

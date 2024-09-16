@@ -26,22 +26,25 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="do6" 
+                Text="do4" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
+                HorizontalOptions="Fill" 
+                ImageSource="cyfra4.jpg"/>
             <Button
                 x:Name="CounterBtn1"
-                Text="Do 4" 
+                Text="Do 6" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked1"
-                HorizontalOptions="Fill" />
+                HorizontalOptions="Fill" 
+                ImageSource="cyfra6.jpg"/>
             <Button
                 x:Name="CounterBtn2"
                 Text="Do 12" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked2"
-                HorizontalOptions="Fill" />
+                HorizontalOptions="Fill" 
+                ImageSource="cyfra10.jpg"/>
 
             <Label
                 x:Name="RollValueLabel"
@@ -49,10 +52,16 @@
                 FontSize="Large"
                 HorizontalTextAlignment="Center"
                 />
-            <RadioButton Content="k4" />
-            <RadioButton Content="k6" />
+            <RadioButton Value="CounterBtn4" 
+                
+                Content="k4" 
+              
+                />
+            <RadioButton Content="k6" 
+
+                         />
             <RadioButton Content="k10"
-                 IsChecked="true" />
+                           IsChecked="true" />
         </VerticalStackLayout>
     </ScrollView>
 

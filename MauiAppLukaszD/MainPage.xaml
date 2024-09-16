@@ -26,16 +26,33 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="Click me" 
+                Text="do6" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+            <Button
+                x:Name="CounterBtn1"
+                Text="Do 4" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked1"
+                HorizontalOptions="Fill" />
+            <Button
+                x:Name="CounterBtn2"
+                Text="Do 12" 
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnCounterClicked2"
+                HorizontalOptions="Fill" />
+
             <Label
                 x:Name="RollValueLabel"
                 Text="Wynik rzutu"
                 FontSize="Large"
                 HorizontalTextAlignment="Center"
                 />
+            <RadioButton Content="k4" />
+            <RadioButton Content="k6" />
+            <RadioButton Content="k10"
+                 IsChecked="true" />
         </VerticalStackLayout>
     </ScrollView>
 
